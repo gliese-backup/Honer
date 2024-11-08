@@ -1,1 +1,22 @@
-# Honer
+# Concepts
+
+- JSX can't be interpreted by our browser. Vite does the transformation for us
+- HMR: Instant Hot Reloads not refresh provided by Vite
+- Automatic Semicolon Insertion for this we use `return ();`
+- Component is a piece of UI
+- Component names must be PascalCase
+- It is like a custom Html element
+- <h1> native
+- <Heading /> is custom component
+- how to create: function that return html like syntax called JSX
+- JSX has its own rules. Like className instead of just class
+- HTML alike syntax inside JS is JSX
+- React fragment allows us to nest multiple elements <></>
+- {} this is used to go back to JS inside JSX
+- Our top level component is generally App
+- The role of main.jsx is to start react with react-dom
+- To style: We can either give class or style={{}} an object
+- Props is the way to get some values inside our components
+- Props is an object
+- With props we can use object destructuring {property} = object;
+- Props can also have default values if we want
